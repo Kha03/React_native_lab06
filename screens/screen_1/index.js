@@ -1,6 +1,58 @@
 import { Image, StyleSheet, Text, View } from "react-native";
 
+const item = (props) => {
+  return (
+    <View style={[,{}]}>
+      <Image />
+      
+    </View>
+  );
+}
+
+
 export default function Screen1() {
+  const data = [{
+    id: 1,
+    img: require('../../assets/imgs/ca_nau_lau.png'),
+    name: 'Bạn có thắc mắc với sản phẩm vừa xem đừng ngại chát với shop!',
+    nameShop: 'DeVang',
+  },
+,{
+  id: 2,
+  img: require('../../assets/imgs/ga_bo_toi.png'),
+  name: '1kg Khô Gà Bó Toi - Gà Bó Toi Khô',
+  nameShop: 'LTD Food',
+},{
+  id: 3,
+  img: require('../../assets/imgs/xa_can_cau.png'),
+  name: 'Xe Cần Cẩu Xe Ô Tô Xe Xúc Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô Xe Cần Cẩu Xe Đào Xe Xúc Xe Ô Tô',
+  nameShop: 'The Gioi Do Choi',
+},{
+  id: 4,
+  img: require('../../assets/imgs/do_choi_dang_mo_hinh.png'),
+  name: 'Ddo choi dang mo hinh',
+  nameShop: 'The Gioi Do Choi',
+},{
+  id: 5,
+  img: require('../../assets/imgs/lanh_dao_gian_don.png'),
+  name: 'Lanh dao gian don',
+  nameShop: 'Minh Long Book',
+},{
+  id: 6,
+  img: require('../../assets/imgshieu_long_con_tre.png'),
+  name: 'Hieu long con tre',
+  nameShop: 'Minh Long Book',
+},{
+  id: 7,
+  img: require('../../assets/imgs/trump_1.png'),
+  name: 'Donald Trump',
+  nameShop: 'DeVang',
+},{
+  id: 8,
+  img: require('../../assets/imgs/trump_1.png'),
+  name: 'Donald Trump',
+  nameShop: 'DeVang',
+}]
   return (
     <View style={styles.container}>
      <View style={[styles.flexRows,{width: '100%',
