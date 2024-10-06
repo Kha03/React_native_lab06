@@ -1,5 +1,5 @@
-import { StyleSheet, View } from 'react-native';
-import Screen1 from './screens/screen_1';
+import { StyleSheet, View } from "react-native";
+import Screen1 from "./screens/screen_1";
 
 export default function App() {
   return (
